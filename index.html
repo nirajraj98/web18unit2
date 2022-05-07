@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <select id="niraj">
+        <option value="Male">M</option>
+        <option value="Female">F</option>
+        <option value=" Trans">T</option>
+    </select>
+    <input id="email" type="text" placeholder="Enter your email">
+    <input id='name'  type="text" placeholder="Enter your name">
+    <input id="lastname"   type="text" placeholder="Enter your last name">
+    <input id="mobileno"   type="number" placeholder="Enter your mobile no">
+    <button onClick="vivek()">click</button>
+    
+</body>
+</html>
+
+<script>
+   function vivek(){
+       //console.log("inside the fun")
+var niraj=document.querySelector("#niraj").value;
+
+alert(niraj)
+
+
+
+var email=document.querySelector("#email").value;
+email.innerText=email;
+alert(email)
+
+var name=document.querySelector("#name").value;
+name.innerText=name;
+alert(name)
+
+var lastname=document.querySelector("#lastname").value;
+lastname.innerText=lastname;
+alert(lastname)
+
+var mobileno=document.querySelector("#mobileno").value;
+mobileno.innerText=mobileno;
+alert(mobileno)
+
+}
+
+  
+
+
+</script>

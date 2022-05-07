@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="age" type="number" placeholder="enter age">
+    <button onClick="niraj()">Submit</button>
+    <p id="niraj2">show result</p>
+    
+</body>
+</html>
+<script>
+    function niraj(){
+   var age=document.querySelector("#age").value;
+   console.log(age)
+//    var p=document.querySelector("#niraj2").value;
+//    console.log(p)
+   if(age<18){
+    document.querySelector("#niraj2").innerText=("not able")
+   }else if(age>18){
+    document.querySelector("#niraj2").innerText=("Yes")
+   }
+
+    }
+</script>
